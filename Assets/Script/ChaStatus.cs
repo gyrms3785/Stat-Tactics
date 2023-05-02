@@ -11,6 +11,7 @@ public class ChaStatus : MonoBehaviour
     public GameObject MoveCamera;
     public GameObject SubCamera;
     public double[] statList;
+    public int hihi; //추가해보자
 
     private void OnMouseDown() {
         Option.gameObject.SetActive(false);
